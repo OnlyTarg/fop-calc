@@ -1,3 +1,9 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#16795f">
 <title>Скільки залишити на ФОП</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +25,7 @@
   --bg:#111614; --surface:#1a201e; --fg:#e8ede9; --muted:#9ba8a3; --line:#2d3633;
   --keep:#ff9a7d; --keep-soft:#3a221b; --take:#5fd1ad; --take-soft:#163329; --accent:#5fd1ad; color-scheme:dark}
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--fg);font:16px/1.5 var(--body);padding-inline:16px;padding-block:24px 48px}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 var(--body);padding-inline:16px;padding-block:24px 48px}
 .wrap{max-width:520px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
 h1{font-size:1.35rem;margin:0;text-wrap:balance}
 .sub{color:var(--muted);font-size:.9rem;margin:0}
@@ -65,6 +71,8 @@ details[open] summary{margin-bottom:12px}
 .copy.done{background:var(--take);color:var(--surface)}
 #take{user-select:all;cursor:pointer}
 </style>
+</head>
+<body>
 
 <div class="wrap">
   <header style="display:flex;flex-direction:column;gap:4px">
@@ -207,3 +215,5 @@ details[open] summary{margin-bottom:12px}
   render();
 })();
 </script>
+</body>
+</html>
